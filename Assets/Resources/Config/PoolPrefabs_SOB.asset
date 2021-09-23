@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a14a8212f2df2d409b5f00b487c77b9, type: 3}
+  m_Name: PoolPrefabs_SOB
+  m_EditorClassIdentifier: 
+  repairArmAmount: 0
+  repairArmPrefab: {fileID: 7741069667715593822, guid: a23db39b8ea604345831446750920a08,
+    type: 3}
+  repairParticleAmount: 0
+  repairParticlePrefab: {fileID: 100000, guid: e0eed2942d2ebd74692e94077625a3d3, type: 3}
+  explosionParticleAmount: 0
+  robotExplosionPrefab: {fileID: 1995403933065894, guid: 37f9eefebe204ff478c7f8b65bd331c0,
+    type: 3}

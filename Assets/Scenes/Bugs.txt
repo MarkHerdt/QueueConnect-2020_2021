@@ -1,0 +1,7 @@
+//BUGS:
+TODO: [X] Random Crashes
+TODO: [X] Robot part button is set interactable after pause menu is closed.
+TODO: [T] Random amounts of armor will be gained at the beginning of a game if the previous game is ended quick.
+TODO: [T] Speed is not saved correctly when transitioning between pause and play state.
+TODO: [T] Robots spawn too close to each other when transitioning between pause and play state.
+TODO: [ ] Main Display multiplier value is slowly counting down after a game.

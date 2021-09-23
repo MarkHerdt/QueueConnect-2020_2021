@@ -1,0 +1,29 @@
+-Prefab:               _PFB
+-Animation:            _ANI
+-Animation Controller: _ACON
+-Image:                _IMG
+-Music:                _MSC
+-SFX:                  _SFX
+-Materials:            _MAT
+-Textures:             _TEX
+-Fonts:                _FNT
+-Particle System:      _PTS
+-VFX:                  _VFX
+-Scriptable Objects:   _SOB
+-Scenes:               _SCN
+-Terrain:              _TRN
+-Preset:               _PRT
+-Mesh:                 _MSH
+-Shader:               _SDR
+
+-Texture:
+ -Diffuse/Albedo/BaseColor: _D
+ -Normal:                   _N
+ -Alpha/Opacity:            _A
+ _Roughness:                _R
+ -Ambient Occlusion:        _O
+ -Bump:                     _B
+ -Emissive:                 _E
+ -Mask:                     _MA
+ -Specular:                 _S
+ -Metallic:                 _ME 

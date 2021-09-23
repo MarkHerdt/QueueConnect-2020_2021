@@ -1,0 +1,1208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f839819320a62774994a1edc83d4fe85, type: 3}
+  m_Name: Localization
+  m_EditorClassIdentifier: 
+  localizedTextCaches:
+  - key: m_back
+    localizedText:
+    - language: 0
+      expand: 0
+      text: back
+    - language: 1
+      expand: 0
+      text: zurueck
+    - language: 2
+      expand: 0
+      text: Retour
+    - language: 3
+      expand: 0
+      text: "Atr\xE1s"
+  - key: m_play
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Play
+    - language: 1
+      expand: 0
+      text: Start
+    - language: 2
+      expand: 0
+      text: Commencer
+    - language: 3
+      expand: 0
+      text: Comenzar
+  - key: m_settings
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Settings
+    - language: 1
+      expand: 0
+      text: Optionen
+    - language: 2
+      expand: 0
+      text: Options
+    - language: 3
+      expand: 0
+      text: Opciones
+  - key: m_stats
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Stats
+    - language: 1
+      expand: 0
+      text: Statistik
+    - language: 2
+      expand: 0
+      text: Statistiques
+    - language: 3
+      expand: 0
+      text: Estadisticas
+  - key: m_main
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Main Menu
+    - language: 1
+      expand: 0
+      text: Hauptmenue
+    - language: 2
+      expand: 0
+      text: Menu principal
+    - language: 3
+      expand: 0
+      text: Menu principal
+  - key: m_continue
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Continue
+    - language: 1
+      expand: 0
+      text: Fortsetzen
+    - language: 2
+      expand: 0
+      text: Continuer
+    - language: 3
+      expand: 0
+      text: Continuar
+  - key: s_language
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Language
+    - language: 1
+      expand: 0
+      text: Sprache
+    - language: 2
+      expand: 0
+      text: Langue
+    - language: 3
+      expand: 0
+      text: Idioma
+  - key: s_Vibrations
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Vibrations
+    - language: 1
+      expand: 0
+      text: Vibrationen
+    - language: 2
+      expand: 0
+      text: Vibrations
+    - language: 3
+      expand: 0
+      text: Vibraciones
+  - key: s_audio
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Audio
+    - language: 1
+      expand: 0
+      text: Audio
+    - language: 2
+      expand: 0
+      text: Audio
+    - language: 3
+      expand: 0
+      text: Audio
+  - key: s_master
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Master Volume
+    - language: 1
+      expand: 0
+      text: Gesamt
+    - language: 2
+      expand: 0
+      text: Principal
+    - language: 3
+      expand: 0
+      text: Principal
+  - key: s_vfx
+    localizedText:
+    - language: 0
+      expand: 0
+      text: SFX Volume
+    - language: 1
+      expand: 0
+      text: Effekte
+    - language: 2
+      expand: 0
+      text: SFX
+    - language: 3
+      expand: 0
+      text: SFX
+  - key: s_ambience
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Ambience Volume
+    - language: 1
+      expand: 0
+      text: Umgebung
+    - language: 2
+      expand: 0
+      text: Ambiance
+    - language: 3
+      expand: 0
+      text: Ambiente
+  - key: s_music
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Music Volume
+    - language: 1
+      expand: 0
+      text: Musik
+    - language: 2
+      expand: 0
+      text: Musique
+    - language: 3
+      expand: 0
+      text: Musik
+  - key: m_about
+    localizedText:
+    - language: 0
+      expand: 0
+      text: About
+    - language: 1
+      expand: 0
+      text: Credits
+    - language: 2
+      expand: 0
+      text: "Cr\xE9dits"
+    - language: 3
+      expand: 0
+      text: "Cr\xE9ditos"
+  - key: title_bests
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Bests
+    - language: 1
+      expand: 0
+      text: Bestwerte
+    - language: 2
+      expand: 0
+      text: Meilleures valeurs
+    - language: 3
+      expand: 0
+      text: Mejores valores
+  - key: title_totals
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Totals
+    - language: 1
+      expand: 0
+      text: Gesamt
+    - language: 2
+      expand: 0
+      text: Total
+    - language: 3
+      expand: 0
+      text: Total
+  - key: title_lastgame
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Last Game
+    - language: 1
+      expand: 0
+      text: Letztes Spiel
+    - language: 2
+      expand: 0
+      text: Dernier match
+    - language: 3
+      expand: 0
+      text: "\xDAltimo juego"
+  - key: m_sound
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Sound Design
+    - language: 1
+      expand: 0
+      text: Sound Design
+    - language: 2
+      expand: 0
+      text: Sound Design
+    - language: 3
+      expand: 0
+      text: Sound Design
+  - key: MISSING
+    localizedText:
+    - language: 0
+      expand: 0
+      text: MISSING
+    - language: 1
+      expand: 0
+      text: MISSING
+    - language: 2
+      expand: 0
+      text: MISSING
+    - language: 3
+      expand: 0
+      text: MISSING
+  - key: st_ica
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Items Collected
+    - language: 1
+      expand: 0
+      text: Items Gesammelt
+    - language: 2
+      expand: 0
+      text: "Objets collect\xE9s"
+    - language: 3
+      expand: 0
+      text: Elementos recolectados
+  - key: st_rra
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Robots Repaired
+    - language: 1
+      expand: 0
+      text: Roboter Repariert
+    - language: 2
+      expand: 0
+      text: "Robots r\xE9par\xE9s"
+    - language: 3
+      expand: 0
+      text: Robots reparados
+  - key: st_pt
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Play Time
+    - language: 1
+      expand: 0
+      text: Spielzeit
+    - language: 2
+      expand: 0
+      text: Temps de jeu
+    - language: 3
+      expand: 0
+      text: Tiempo de juego
+  - key: st_ps
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Part Shuffle
+    - language: 1
+      expand: 0
+      text: Parts Gemischt
+    - language: 2
+      expand: 0
+      text: "Pi\xE8ces m\xE9lang\xE9es"
+    - language: 3
+      expand: 0
+      text: Partes mezcladas
+  - key: st_tg
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Time Gained
+    - language: 1
+      expand: 0
+      text: Zeit Gewonnen
+    - language: 2
+      expand: 0
+      text: "Temps gagn\xE9"
+    - language: 3
+      expand: 0
+      text: Tiempo ganado
+  - key: st_tl
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Time Lost
+    - language: 1
+      expand: 0
+      text: Zeit Verloren
+    - language: 2
+      expand: 0
+      text: Temps perdu
+    - language: 3
+      expand: 0
+      text: Tiempo perdido
+  - key: st_ti
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Time Invincible
+    - language: 1
+      expand: 0
+      text: Zeit Unbesiegbar
+    - language: 2
+      expand: 0
+      text: Le temps invincible
+    - language: 3
+      expand: 0
+      text: Tiempo invencible
+  - key: st_pa
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Game attempts
+    - language: 1
+      expand: 0
+      text: Spielversuche
+    - language: 2
+      expand: 0
+      text: Tentatives de jeu
+    - language: 3
+      expand: 0
+      text: Intentos de juego
+  - key: st_hg
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Health Gained
+    - language: 1
+      expand: 0
+      text: Leben Erhalten
+    - language: 2
+      expand: 0
+      text: Obtenez la vie
+    - language: 3
+      expand: 0
+      text: Obtener la vida
+  - key: st_hl
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Health Lost
+    - language: 1
+      expand: 0
+      text: Leben Verloren
+    - language: 2
+      expand: 0
+      text: Vie perdue
+    - language: 3
+      expand: 0
+      text: Vida perdida
+  - key: st_ag
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Armor Gained
+    - language: 1
+      expand: 0
+      text: "R\xFCstung Erhalten"
+    - language: 2
+      expand: 0
+      text: Obtenez une armure
+    - language: 3
+      expand: 0
+      text: Conseguir armadura
+  - key: st_al
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Armor Lost
+    - language: 1
+      expand: 0
+      text: "R\xFCstung Verloren"
+    - language: 2
+      expand: 0
+      text: Armure perdue
+    - language: 3
+      expand: 0
+      text: Armadura perdida
+  - key: st_cps
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Correct Parts Selected
+    - language: 1
+      expand: 0
+      text: Richtige Teile Gewaehlt
+    - language: 2
+      expand: 0
+      text: "Pi\xE8ces correctes choisies"
+    - language: 3
+      expand: 0
+      text: Piezas correctas elegidas
+  - key: st_wps
+    localizedText:
+    - language: 0
+      expand: 0
+      text: ' Wrong Parts Selected'
+    - language: 1
+      expand: 0
+      text: Falsche Teile Gewaelt
+    - language: 2
+      expand: 0
+      text: "Mauvaises pi\xE8ces choisies"
+    - language: 3
+      expand: 0
+      text: Piezas incorrectas elegidas
+  - key: st_rd
+    localizedText:
+    - language: 0
+      expand: 0
+      text: ' Robots Destroyed'
+    - language: 1
+      expand: 0
+      text: Roboter Zerstoert
+    - language: 2
+      expand: 0
+      text: "Robot d\xE9truit"
+    - language: 3
+      expand: 0
+      text: Robot destruido
+  - key: st_we
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Waves Endured
+    - language: 1
+      expand: 0
+      text: Wellen Geschafft
+    - language: 2
+      expand: 0
+      text: Les vagues l'ont fait
+    - language: 3
+      expand: 0
+      text: Las olas lo hicieron
+  - key: st_mwr
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Max Wave Reached
+    - language: 1
+      expand: 0
+      text: 'Hoechste Welle '
+    - language: 2
+      expand: 0
+      text: Vague la plus haute
+    - language: 3
+      expand: 0
+      text: Ola mas alta
+  - key: st_msr
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Max Score
+    - language: 1
+      expand: 0
+      text: Hoechste Punktzahl
+    - language: 2
+      expand: 0
+      text: "Score \xE9lev\xE9"
+    - language: 3
+      expand: 0
+      text: "Puntuaci\xF3n m\xE1s alta"
+  - key: st_mmr
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Max Multiplier
+    - language: 1
+      expand: 0
+      text: Hoechster Multiplikator
+    - language: 2
+      expand: 0
+      text: "Multiplicateur le plus \xE9lev\xE9"
+    - language: 3
+      expand: 0
+      text: "Multiplicador m\xE1s alto"
+  - key: st_mpr
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Longest Perfect Run
+    - language: 1
+      expand: 0
+      text: Laengster Perfekter Lauf
+    - language: 2
+      expand: 0
+      text: La course parfaite la plus longue
+    - language: 3
+      expand: 0
+      text: "Carrera perfecta m\xE1s larga"
+  - key: st_cs
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Score
+    - language: 1
+      expand: 0
+      text: Punkte
+    - language: 2
+      expand: 0
+      text: Score
+    - language: 3
+      expand: 0
+      text: Score
+  - key: st_cm
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Highest Multiplier
+    - language: 1
+      expand: 0
+      text: "H\xF6chster Multiplikator"
+    - language: 2
+      expand: 0
+      text: "Multiplicateur le plus \xE9lev\xE9"
+    - language: 3
+      expand: 0
+      text: "Multiplicador m\xE1s alto"
+  - key: st_cw
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Wave Reached
+    - language: 1
+      expand: 0
+      text: Erreichte Welle
+    - language: 2
+      expand: 0
+      text: Vague atteinte
+    - language: 3
+      expand: 0
+      text: Ola alcanzada
+  - key: st_prt
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Perfect Run Time
+    - language: 1
+      expand: 0
+      text: Prefekter Lauf Zeit
+    - language: 2
+      expand: 0
+      text: "Temps d'ex\xE9cution parfait"
+    - language: 3
+      expand: 0
+      text: "Tiempo de ejecuci\xF3n perfecto"
+  - key: st_item_motivation
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Motivation Collected
+    - language: 1
+      expand: 0
+      text: Motivation  Gesammelt
+    - language: 2
+      expand: 0
+      text: Motivation recueillie
+    - language: 3
+      expand: 0
+      text: "Motivaci\xF3n recogida"
+  - key: st_item_multiplier
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Multiplier Collected
+    - language: 1
+      expand: 0
+      text: Multiplikator  Gesammelt
+    - language: 2
+      expand: 0
+      text: "Multiplicateur collect\xE9"
+    - language: 3
+      expand: 0
+      text: Multiplicador recolectado
+  - key: st_item_time
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Time Collected
+    - language: 1
+      expand: 0
+      text: Zeit  Gesammelt
+    - language: 2
+      expand: 0
+      text: "Temps collect\xE9"
+    - language: 3
+      expand: 0
+      text: Tiempo recolectado
+  - key: st_item_item_burst
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Item Burst Collected
+    - language: 1
+      expand: 0
+      text: Item Burst  Gesammelt
+    - language: 2
+      expand: 0
+      text: "Objet rafale collect\xE9"
+    - language: 3
+      expand: 0
+      text: "R\xE1faga de objetos recolectada"
+  - key: st_item_armor
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Armor Collected
+    - language: 1
+      expand: 0
+      text: "R\xFCstung  Gesammelt"
+    - language: 2
+      expand: 0
+      text: "Armure r\xE9cup\xE9r\xE9e"
+    - language: 3
+      expand: 0
+      text: Armadura recolectada
+  - key: st_item_auto_repair
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Auto Repair Collected
+    - language: 1
+      expand: 0
+      text: Reparatur Gesammelt
+    - language: 2
+      expand: 0
+      text: "R\xE9paration collect\xE9e"
+    - language: 3
+      expand: 0
+      text: "Reparaci\xF3n recolectada"
+  - key: st_item_health
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Health Collected
+    - language: 1
+      expand: 0
+      text: Leben  Gesammelt
+    - language: 2
+      expand: 0
+      text: "La vie collect\xE9e"
+    - language: 3
+      expand: 0
+      text: Vida recolectada
+  - key: st_item_phoenix
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Phoenix Collected
+    - language: 1
+      expand: 0
+      text: Phoenix Gesammelt
+    - language: 2
+      expand: 0
+      text: "Ph\xE9nix collect\xE9"
+    - language: 3
+      expand: 0
+      text: Phoenix recogido
+  - key: st_robo_cyclops
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Cyclops Repaired
+    - language: 1
+      expand: 0
+      text: Cyclops Repariert
+    - language: 2
+      expand: 0
+      text: "Cyclope r\xE9par\xE9"
+    - language: 3
+      expand: 0
+      text: Cyclops reparado
+  - key: st_robo_aqua
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Aqua Repaired
+    - language: 1
+      expand: 0
+      text: Aqua Repariert
+    - language: 2
+      expand: 0
+      text: "Aqua r\xE9par\xE9"
+    - language: 3
+      expand: 0
+      text: Aqua reparado
+  - key: st_robo_faun
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Faun Repaired
+    - language: 1
+      expand: 0
+      text: Faun Repariert
+    - language: 2
+      expand: 0
+      text: "Faune r\xE9par\xE9"
+    - language: 3
+      expand: 0
+      text: Fauno reparado
+  - key: m_tutorial
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Tutorial
+    - language: 1
+      expand: 0
+      text: Tutorial
+    - language: 2
+      expand: 0
+      text: Didacticiel
+    - language: 3
+      expand: 0
+      text: Tutorial
+  - key: txt_quitGame
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Quit And Return To Main Menu?
+    - language: 1
+      expand: 0
+      text: Beenden und ins Hauptmenue zurueck gehen?
+    - language: 2
+      expand: 0
+      text: "Quitter et revenir au menu principal\_?"
+    - language: 3
+      expand: 0
+      text: "\xBFSalir y volver al men\xFA principal?"
+  - key: m_yes
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Yes
+    - language: 1
+      expand: 0
+      text: Ja
+    - language: 2
+      expand: 0
+      text: Oui
+    - language: 3
+      expand: 0
+      text: "S\xED"
+  - key: m_no
+    localizedText:
+    - language: 0
+      expand: 0
+      text: No
+    - language: 1
+      expand: 0
+      text: Nein
+    - language: 2
+      expand: 0
+      text: Non
+    - language: 3
+      expand: 0
+      text: No
+  - key: txt_quit
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Exit Game?
+    - language: 1
+      expand: 0
+      text: Spiel Beenden?
+    - language: 2
+      expand: 0
+      text: Sortir du jeu?
+    - language: 3
+      expand: 0
+      text: "\xBFSalir del juego?"
+  - key: m_armor
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Armor
+    - language: 1
+      expand: 0
+      text: "R\xFCstung"
+    - language: 2
+      expand: 0
+      text: Armure
+    - language: 3
+      expand: 0
+      text: Armadura
+  - key: m_health
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Health
+    - language: 1
+      expand: 0
+      text: Leben
+    - language: 2
+      expand: 0
+      text: Vie
+    - language: 3
+      expand: 0
+      text: La vida
+  - key: m_time
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Time
+    - language: 1
+      expand: 0
+      text: Zeit
+    - language: 2
+      expand: 0
+      text: Temps
+    - language: 3
+      expand: 0
+      text: Tiempo
+  - key: m_phoenix
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Phoenix
+    - language: 1
+      expand: 0
+      text: Phoenix
+    - language: 2
+      expand: 0
+      text: "Ph\xE9nix"
+    - language: 3
+      expand: 0
+      text: "F\xE9nix"
+  - key: m_motivation
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Motivation
+    - language: 1
+      expand: 0
+      text: Motivation
+    - language: 2
+      expand: 0
+      text: Motivation
+    - language: 3
+      expand: 0
+      text: "Motivaci\xF3n"
+  - key: m_autorepair
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Auto Repair
+    - language: 1
+      expand: 0
+      text: Autoreparatur
+    - language: 2
+      expand: 0
+      text: "R\xE9paration"
+    - language: 3
+      expand: 0
+      text: "Reparaci\xF3n"
+  - key: m_itemburst
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Item Burst
+    - language: 1
+      expand: 0
+      text: Itemburst
+    - language: 2
+      expand: 0
+      text: Articleburst
+    - language: 3
+      expand: 0
+      text: Itemburst
+  - key: m_scoreshield
+    localizedText:
+    - language: 0
+      expand: 0
+      text: ScoreShield
+    - language: 1
+      expand: 0
+      text: ScoreSchild
+    - language: 2
+      expand: 0
+      text: Bouclier
+    - language: 3
+      expand: 0
+      text: Blindaje
+  - key: st_item_score_shield
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Score Shields Collected
+    - language: 1
+      expand: 0
+      text: Score Schilder Gesammelt
+    - language: 2
+      expand: 0
+      text: "Boucliers collect\xE9s"
+    - language: 3
+      expand: 0
+      text: Escudos recolectados
+  - key: txt_motivation_1
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Please send help!
+    - language: 1
+      expand: 0
+      text: Bitte helfen sie mir, ich bin in gefahr!
+    - language: 2
+      expand: 0
+      text: "S'il vous pla\xEEt envoyez de l'aide!"
+    - language: 3
+      expand: 0
+      text: "\xA1Por favor env\xEDe ayuda!"
+  - key: txt_motivation_2
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Pasta > rice
+    - language: 1
+      expand: 0
+      text: Nudeln > Reis
+    - language: 2
+      expand: 0
+      text: "P\xE2tes > riz"
+    - language: 3
+      expand: 0
+      text: Pasta > arroz
+  - key: txt_motivation_3
+    localizedText:
+    - language: 0
+      expand: 0
+      text: believe in yourself
+    - language: 1
+      expand: 0
+      text: glaube an dich
+    - language: 2
+      expand: 0
+      text: croire en toi
+    - language: 3
+      expand: 0
+      text: creo en ti
+  - key: txt_motivation_4
+    localizedText:
+    - language: 0
+      expand: 0
+      text: you are a handsome person
+    - language: 1
+      expand: 0
+      text: "du bist ein h\xFCbscher mensch"
+    - language: 2
+      expand: 0
+      text: tu es une jolie personne
+    - language: 3
+      expand: 0
+      text: eres una persona bonita
+  - key: txt_motivation_5
+    localizedText:
+    - language: 0
+      expand: 0
+      text: you are looking good
+    - language: 1
+      expand: 0
+      text: du siehst gut aus
+    - language: 2
+      expand: 0
+      text: "\xE7a te va bien"
+    - language: 3
+      expand: 0
+      text: te ves genial
+  - key: txt_motivation_6
+    localizedText:
+    - language: 0
+      expand: 0
+      text: I believe in you!
+    - language: 1
+      expand: 0
+      text: Ich glaube an dich!
+    - language: 2
+      expand: 0
+      text: Je crois en toi!
+    - language: 3
+      expand: 0
+      text: "\xA1Creo en ti!"
+  - key: m_enabled
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Enabled
+    - language: 1
+      expand: 0
+      text: An
+    - language: 2
+      expand: 0
+      text: "Activ\xE9"
+    - language: 3
+      expand: 0
+      text: Activado
+  - key: m_disabled
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Disabled
+    - language: 1
+      expand: 0
+      text: Aus
+    - language: 2
+      expand: 0
+      text: "d\xE9sactiv\xE9"
+    - language: 3
+      expand: 0
+      text: desactivado
+  - key: m_multiplier
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Multiplier
+    - language: 1
+      expand: 0
+      text: Multiplikator
+    - language: 2
+      expand: 0
+      text: multiplicateur
+    - language: 3
+      expand: 0
+      text: multiplicador
+  - key: m_empty
+    localizedText:
+    - language: 0
+      expand: 0
+      text: MISSING
+    - language: 1
+      expand: 0
+      text: MISSING
+    - language: 2
+      expand: 0
+      text: MISSING
+    - language: 3
+      expand: 0
+      text: MISSING
+  - key: txt_tutorial_parts
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Repair the robots! Select the missing parts
+    - language: 1
+      expand: 0
+      text: Waehle die fehlenden teil aus um den Roboter zu reparieren
+    - language: 2
+      expand: 0
+      text: "R\xE9parez les robots ! S\xE9lectionnez les pi\xE8ces manquantes"
+    - language: 3
+      expand: 0
+      text: "\xA1Repara los robots! Seleccione las partes que faltan"
+  - key: txt_tutorial_timer
+    localizedText:
+    - language: 0
+      expand: 0
+      text: When the timer reaches zero, all parts are shuffled
+    - language: 1
+      expand: 0
+      text: Wenn der Timer Null erreicht, werden alle Teile gemischt
+    - language: 2
+      expand: 0
+      text: "Lorsque la minuterie atteint z\xE9ro, toutes les parties sont m\xE9lang\xE9es"
+    - language: 3
+      expand: 0
+      text: Cuando el temporizador llega a cero, todas las partes se mezclan
+  - key: txt_tutorial_items
+    localizedText:
+    - language: 0
+      expand: 0
+      text: 'Collect items to gain bonus effects '
+    - language: 1
+      expand: 0
+      text: "Sammle Gegenst\xE4nde, um Bonuseffekte zu erhalten"
+    - language: 2
+      expand: 0
+      text: Collectez des objets pour obtenir des effets bonus
+    - language: 3
+      expand: 0
+      text: "Recoge objetos para obtener efectos de bonificaci\xF3n."
+  - key: m_score
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Score
+    - language: 1
+      expand: 0
+      text: Punkte
+    - language: 2
+      expand: 0
+      text: Score
+    - language: 3
+      expand: 0
+      text: Score
+  - key: m_offer
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Watch the next advertisement and get a free life to continue this run!
+    - language: 1
+      expand: 0
+      text: 'Schade, aber nicht traurig sein. Schau dir die kommende Werbung einfach
+        ganz an und ich gebe die nochmal ein Leben dazu. '
+    - language: 2
+      expand: 0
+      text: "Regardez la prochaine publicit\xE9 et obtenez une vie gratuite pour
+        continuer cette course\_!"
+    - language: 3
+      expand: 0
+      text: "\xA1Mira el pr\xF3ximo anuncio y obt\xE9n una vida gratis para continuar
+        esta carrera!"
+  - key: st_adw
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Ads Watched
+    - language: 1
+      expand: 0
+      text: Werbung Angeschaut
+    - language: 2
+      expand: 0
+      text: "Vu la publicit\xE9"
+    - language: 3
+      expand: 0
+      text: "Mir\xF3 la publicidad"
+  - key: st_ads
+    localizedText:
+    - language: 0
+      expand: 0
+      text: Ads Skipped
+    - language: 1
+      expand: 0
+      text: "Werbung \xDCbersprungen"
+    - language: 2
+      expand: 0
+      text: "Publicit\xE9 ignor\xE9e"
+    - language: 3
+      expand: 0
+      text: Publicidad omitida

@@ -1,0 +1,48 @@
+-------------------------------------------------------NEXT-STEP-------------------------------------------------------
+
+-Make sure Robots dont spawn to close to each other
+-Add/remove skins with the Button next to the List-entries (RobotPartButton.cs)
+-Hide the add button on the Skins
+-Make the Shuffle-Script inherit from the RobotSpawner-Script
+-Remove Invoke (Maybe replace with Update) (RobotSpawner.cs)
+-replace the LightBeam-Sprite with an actual 2D-Light
+-Check if Linq Code can be improved with Rider
+-ConveyorBelt moves to far in build (ConveyorBelt.cs) 
+-Check if the player has unlocked a skin before the "ChangeRobotSkin()"-Method (RobotPartConfig.cs)
+-Load unlocked skins from users saved data (RobotPartConfig.cs)
+
+------------------------------------------------------IMPROVEMENTS-----------------------------------------------------
+
+-Use Event instead of Update (RobotScanner.cs)
+-Make "partsToDisable" a Dictionary (RobotBehaviour.cs) 
+-Make "MinAmountToDisable"/"MaxAmountToDisable" numbers bigger, so the random range is more diverse (RobotBehaviour.cs)
+-Takes "partsListToDict" as a reference for some reason(Shuffle.cs)
+-Ensure a min amount of disabled Parts for each Robot Type (Shuffle.cs)
+-Make Robot Type spawn chance dependent on how many Parts of of each Type are currently allowed to be disabled
+-Make the disabled Robot Parts more diverse (RobotBehaviour.cs)
+
+---------------------------------------------------------MAYBE---------------------------------------------------------
+
+-Try making "uniqueMissingParts"-List to a Dictionary and see if it's faster (Shuffle.cs)
+-Call "SpawnRobot()" as an Async task and get the next Type before the Invoke (RobotSpawner.cs)
+-Call "DisableSprites()" as an Async task (RobotBehaviour.cs);
+-Call "ChangeRobotSkin()" on another Thread (RobotPartConfig.cs)
+
+----------------------------------------------------------BUGS----------------------------------------------------------
+
+-Lights don't flicker when a Life is subtracted in play mode (LightFlicker.cs)
+
+----------------------------------------------------------STATS---------------------------------------------------------
+
+//TODO: [X] play attempts
+//TODO: [X] health incremented / decremented
+//TODO: [X] correct part selected
+//TODO: [X] wrong part selected
+//TODO: [X] correct part selected
+//TODO: [X] total robots destroyed
+//TODO: [ ] max wave
+//TODO: [X] greatest time without failures
+//TODO: [X] max score
+//TODO: [X] max multiplier
+
+//TODO: Change music when exiting play

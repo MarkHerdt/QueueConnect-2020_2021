@@ -1,0 +1,2927 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a093e5d270eac834493b6c19e3ff64f8, type: 3}
+  m_Name: AudioSystemSettings
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  oneShotClipLenghtTolerance: 3
+  gain: 1
+  volumeMaster: -10.291464
+  volumeVFX: -10.291464
+  volumeAmbience: -10.291464
+  volumeMusic: -10.291464
+  masterGroup: {fileID: 24300002, guid: b0792e7fe9d680543a6bfc640a7b5544, type: 2}
+  gainGroup: {fileID: -3338213338635917171, guid: b0792e7fe9d680543a6bfc640a7b5544,
+    type: 2}
+  vfxGroup: {fileID: -6670933075658810234, guid: b0792e7fe9d680543a6bfc640a7b5544,
+    type: 2}
+  ambienceGroup: {fileID: -6291574456103834198, guid: b0792e7fe9d680543a6bfc640a7b5544,
+    type: 2}
+  musicGroup: {fileID: -4527013221817267522, guid: b0792e7fe9d680543a6bfc640a7b5544,
+    type: 2}
+  channelsOneShot: 20
+  channelsVFX: 3
+  channelsAmbience: 5
+  enableIndividualMusicFileLooping: 1
+  enableEditorUpdate: 1
+  editorUpdateIntervalMS: 119
+  logWarnings: 0
+  logPlayedMusic: 0
+  logVFX: 0
+  logEditorUpdate: 0
+  logMisc: 0
+  VFXEvents:
+  - eventID: 23
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 1921551b24fd2be4788ce69b02bb58f8, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 5f629d0eef8847047a51623a29d5c201, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: a4deccf37bdd8f149a5ac744460edfcc, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: a0fa6fd07be57514eb507464ac02e056, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 97751b12d5d00cd45adff94584e11e6e, type: 3}
+        edit: 1
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 24
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 701a8b55ad1e8764cb855f3c63c21254, type: 3}
+        edit: 1
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: c45fcc8d818de0b4a96c607a4fdc7e87, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 94ad5a230e750604a9529c82dd1330a1, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 5b8ba92f6979fdd40a7d6daa374bed12, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 4b163ed8cd2626946b31bda4c6a5640d, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 02f26f2a76e8eae46a2a97abbfa2a0cb, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: d307e7ad88edc704a83f63e0315411ce, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 38fe0e8334eaeb5419d6fcae5567a305, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 13748f7c960e8cb47815da538fa53833, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 5a562bef22b8d5d4a84c94f9d3808bae, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: e5100b027924dd7488c6bbbcc07f39d5, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 25
+    vfxFiles: []
+  - eventID: 9
+    vfxFiles:
+    - randomization: 1
+      pitch: 1
+      randomizePitch: 1
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: e2e097ae5c0ac9f4cbb583fb3c22923e, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 412ff07166c956d47be42dbc00fc430b, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 1
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 8a8b0a53a427fd542808911b0415b917, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: b8c59a8d644744d45b43c29585570c91, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 11
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 1
+      randomizedPitch: {x: 1.0563226, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 9ff2e8c1a732233468545ddca9fbb7c5, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 1.0563226, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 1c356dca709ecbc49a2cd048a220c277, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 1.0563226, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 64cc8a06549c5294b96c1f9fe8b3e737, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 1.0563226, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 768806a8a1ba7104883d478f88fc01bd, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 1.0563226, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 7cb27611179735346a6b5e103f11e1d3, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 1.0563226, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 13
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 693ab769ddcf0c14f8d5a640eeac4c5a, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: b84503347b99d9c4684593ebe4f6f02e, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: c0511bf7214aac44790ae8b30ddc5055, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: baf6370da18ea874db80630cf80968b8, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: c51a7e9aa22c52841b35b2c0b420c93b, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 6bcee900bf56f4d4585f3d10ff5742ae, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: cc566652f2ee36c44bdf28a50541d2fb, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: b2e5feeacb930a243b82f85674663306, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 2ffa64e587bc52049b84f115f5e65d9b, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 23427fbadf55d0e419356d30bd3c1214, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 12
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: f8305ebaf38bb164dabf7351753bbd90, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: af7f3aaa44cc0d941969a9c8aca73e99, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 3f77525283147234bbf6cbe9b64dde91, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 14
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 9a5db4067fabc8a439569e78f9a580d8, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 2909c442108bd8146b476d5ecad75df4, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 00d69fbd1d1361044a87a8fa301da30d, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: eac2900076092c1409eced7049592648, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 63ce4cf56684aab4c8ab2dbebe60a75b, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 791d574432ce7414bab567bc1910e376, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: faccd0eba4c84fe489b764d2a2b3aa56, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 9d298db9722ddc64b89cc8de97acf1d6, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: e53829f486d419340a4294d77d59901d, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 4854e0a747b1fc34a9237639fb3540ab, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 42ae59c50dcc94c4d89b5e35983c3514, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: f66177d6127142c4495c129fbd2b2cfe, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 7bd319e6e0ba2b948b580e82d76621ef, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 1
+      randomizedPitch: {x: 0.7802321, y: 1.4428493}
+      volume: 0.747
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 027c3b07af2d62946b9e9a72210811d3, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 0.7802321, y: 1.4428493}
+        volume: 0.747
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 15
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 85beb753549abc8449b698c1ed79f144, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 0bb749f96ffb5944b981a3781c2927b7, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 5c7468a29f407814ba3915c4bdedb348, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 17
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 0
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: f24ff0dbc92f58a4db069ed19f727a8b, type: 3}
+        edit: 1
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 16
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 1
+      randomizedPitch: {x: 0.32744336, y: 0.8906683}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 4ca8b8db46acc994cb41ce9d773a290c, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 0.32744336, y: 0.8906683}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: e44960e55235a8f4584ab59a0bc28306, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 0.32744336, y: 0.8906683}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 1c983385a17131f47af623d9c43da5c1, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 0.32744336, y: 0.8906683}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 0.363
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 0fb9cdbe254156c44a6a902df081db2d, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 0.363
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 4151a4638b1dd3348b7540a14c98adae, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 0.363
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 18
+    vfxFiles:
+    - randomization: 1
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: e7492be9249a927459471a62aae846a9, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 45c45dfdb004d5244b62a89ebc9c20f6, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: d277bc3b7f9b2af49b6f0dd8ee304299, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 1
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 4ca8b8db46acc994cb41ce9d773a290c, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: e44960e55235a8f4584ab59a0bc28306, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 1c983385a17131f47af623d9c43da5c1, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 20
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 46fc218e08d2f104cbec5ff36ccc6a03, type: 3}
+        edit: 1
+        pitch: 0.22
+        randomizePitch: 0
+        randomizedPitch: {x: 0.10203266, y: 0.41597915}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 21
+    vfxFiles:
+    - randomization: 2
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: deb97fae571a74d45b8c97b4708307d8, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 19
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 46fc218e08d2f104cbec5ff36ccc6a03, type: 3}
+        edit: 1
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 0
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 4ca8b8db46acc994cb41ce9d773a290c, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: e44960e55235a8f4584ab59a0bc28306, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: d277bc3b7f9b2af49b6f0dd8ee304299, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 6
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 68ade0d5b98128a49867be37ff478006, type: 3}
+        edit: 1
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 0.8835579, y: 1.4524938}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 5
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 1
+      randomizedPitch: {x: 0.77452433, y: 1.0868715}
+      volume: 0.908
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 3f74b82f08f8b414092140ae2c8c5023, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 0.77452433, y: 1.0868715}
+        volume: 0.908
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: a3878f6ea12d1aa4a8d9f055e713f6aa, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 0.77452433, y: 1.0868715}
+        volume: 0.908
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: dd1212228245ab84180ee388739f4b71, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 0.77452433, y: 1.0868715}
+        volume: 0.908
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: d73a8b6b24685484d97f11e22d634d48, type: 3}
+        edit: 1
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 0.50815165, y: 1.6524425}
+        volume: 0.674
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 1
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: c8d781c0cc4f4264288966fa85811092, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 4b3379aaae5e161439c54573bad85897, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: d73a8b6b24685484d97f11e22d634d48, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 2
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: f16cc07baa16cbc48ab190556e7d1dec, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 576aed37a5d29984fbcd47442c546a05, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 2fe74e705070da945a3cba43e21b7399, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 4
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 957e6d23d99663a4a931d6ff7e0d0774, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: c09ef52a752eaab4bacbc91e8738a4b1, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 3
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 957e6d23d99663a4a931d6ff7e0d0774, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: c09ef52a752eaab4bacbc91e8738a4b1, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: c8d781c0cc4f4264288966fa85811092, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 4b3379aaae5e161439c54573bad85897, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: d73a8b6b24685484d97f11e22d634d48, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 10
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 1
+      randomizedPitch: {x: 1.0342351, y: 1.7631143}
+      volume: 0.638
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 7dabdbe33d1d4f646acb9f4705ea7972, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 1.0342351, y: 1.7631143}
+        volume: 0.638
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 7
+    vfxFiles:
+    - randomization: 0
+      pitch: 0.7
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 0.5
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 3f74b82f08f8b414092140ae2c8c5023, type: 3}
+        edit: 0
+        pitch: 0.7
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 0.5
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: a3878f6ea12d1aa4a8d9f055e713f6aa, type: 3}
+        edit: 0
+        pitch: 0.7
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 0.5
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: dd1212228245ab84180ee388739f4b71, type: 3}
+        edit: 0
+        pitch: 0.7
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 0.5
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 8
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 0
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 1b7b90a8627383e428c5b94c659d7491, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 0
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 71871de358cc0774c9ed23d19e4fc62e, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 2024d20d74eb21848849278e12cf7800, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 5d677ea6de6ba884193db17e63979a4a, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: f86f22b79a8171e48826796fcc5b4c0f, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: a9a33a5bde82195408e8127355282190, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 22
+    vfxFiles:
+    - randomization: 0
+      pitch: 0.75
+      randomizePitch: 1
+      randomizedPitch: {x: 0.66307425, y: 1.0034033}
+      volume: 0.538
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: ed0eb1b0c4f2b654081ca9c835a7b2e6, type: 3}
+        edit: 0
+        pitch: 0.75
+        randomizePitch: 1
+        randomizedPitch: {x: 0.66307425, y: 1.0034033}
+        volume: 0.538
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: cce9ffe4a553e1146b35b731ed9cfd6b, type: 3}
+        edit: 0
+        pitch: 0.75
+        randomizePitch: 1
+        randomizedPitch: {x: 0.66307425, y: 1.0034033}
+        volume: 0.538
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 3834f1828b4809a418afc91648442c6c, type: 3}
+        edit: 0
+        pitch: 0.75
+        randomizePitch: 1
+        randomizedPitch: {x: 0.66307425, y: 1.0034033}
+        volume: 0.538
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 1
+      randomizedPitch: {x: 0.9807147, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 6bffa06457ba14d47a071c6c36ee9dee, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 0.9807147, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 7f57601c4c41ced4aa7ac8e06d613c79, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 9838fa47bbd7bea43b950598689b1e1a, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 6a666b9be6997e8468f080a8f683e003, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 1
+      randomizedPitch: {x: 1.0159535, y: 1.2422047}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 9fee3aa6e8772f342a3f5e3e09d03e15, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 1.0159535, y: 1.2422047}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: df77cac5d4e95614a8e2d5623df642b6, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 1.0159535, y: 1.2422047}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: d1fc6afd3b0e9714598331a7efd39b46, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 1
+        randomizedPitch: {x: 1.0159535, y: 1.2422047}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 1
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 988d77ec6c8e09341984d688a8aa76bc, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 87b6132e44263fa42bce4cd847b68cf0, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 6424b9980e28361489244056c2f20888, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: b60aeb5c3ff72e142884b27371d8fc60, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 27
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 0.46
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 5f3cf5924e462b54296a76487df0ef16, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 28
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 8b3cda97c2412004cbb39b62da7458e4, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 29
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 7916cf1d053d1f34db61e92c4e3b2488, type: 3}
+        edit: 1
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 42
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 0b1476ff3ff8c604bbc05c25795d996d, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 50
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 95a6a8ea249dd504389fc26af5c47fce, type: 3}
+        edit: 1
+        pitch: 0.84
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 0
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 52
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 7bda50173a0ea8245bff8d192bd253de, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 7bda50173a0ea8245bff8d192bd253de, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 53
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: c9d71857190616f479e5eeeba89b7670, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 54
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: b5473936e2f95634796553dd2253f561, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 41
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: e28081ca29a98de47b12a82364e66f9c, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 40
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 5bbf4a13817564e4c817893d0cce5cf4, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 30
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 60d35520c702746418112a11ab857386, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: a826e136f0971324e830e85cf483a4b8, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: e10c642573e0d2e468a83f4a024f1b7c, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: b0ebcbaa43d27834695cea50c70dd6db, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: c3a925bb0de96364a97cf5dbf589b101, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: d4c607e144ecd244ba46d6d1fe5e5877, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 0b1476ff3ff8c604bbc05c25795d996d, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 32
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: d4c607e144ecd244ba46d6d1fe5e5877, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 33
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 0b1476ff3ff8c604bbc05c25795d996d, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 31
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 60d35520c702746418112a11ab857386, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: a826e136f0971324e830e85cf483a4b8, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 36
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 9edc21d810b625743b39d22020fe65c1, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: cec227d6952633c42ad7340ddcf52094, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 002b840c9671a9441bc9dbff166d256b, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 60
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 8ae288603d091e6458eaa97c29cc7578, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.931504, y: 1.0675893}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 7d11cc1db8b22af42b50420547df4759, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.931504, y: 1.0675893}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.9587209, y: 1.1492404}
+      volume: 0.501
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: cb636d97d2037eb41b58f5822e6bbc3e, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.9587209, y: 1.1492404}
+        volume: 0.501
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 61
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 70859e4edcdf84a4fa6d4cc5ae0f9627, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: dce6648572fb6da4a980f56273a0e5cb, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 35
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 1.1764573, y: 1.2853256}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: d4c607e144ecd244ba46d6d1fe5e5877, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 1.1764573, y: 1.2853256}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: c3a925bb0de96364a97cf5dbf589b101, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 1.1764573, y: 1.2853256}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 39
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 044c92034d2b1614f85b8efd9855a00c, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: aa5f18ae68e8de148aa920315924e7ef, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 62
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: f16cc07baa16cbc48ab190556e7d1dec, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 576aed37a5d29984fbcd47442c546a05, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 2fe74e705070da945a3cba43e21b7399, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: e5100b027924dd7488c6bbbcc07f39d5, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 63
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 9a5db4067fabc8a439569e78f9a580d8, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 2909c442108bd8146b476d5ecad75df4, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 00d69fbd1d1361044a87a8fa301da30d, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: eac2900076092c1409eced7049592648, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 63ce4cf56684aab4c8ab2dbebe60a75b, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 791d574432ce7414bab567bc1910e376, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: faccd0eba4c84fe489b764d2a2b3aa56, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 9d298db9722ddc64b89cc8de97acf1d6, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: e53829f486d419340a4294d77d59901d, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 4854e0a747b1fc34a9237639fb3540ab, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 72
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 75c8571957e27b14f905d5c635e86a5a, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 73
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: f739adb142eda5e43a2c71be6a24efac, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 3e7c85c22c5c1dc4992fcfda39019c25, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  - eventID: 70
+    vfxFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: a0fa6fd07be57514eb507464ac02e056, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: ff29f54dd71651d4e9997767d3f0675f, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: 9142bbb40fe602f408bb4322cbeef532, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      vfxFiles:
+      - clip: {fileID: 8300000, guid: c8e4ba598f54ffd44b05862df4f41136, type: 3}
+        edit: 1
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 1
+        loop: 0
+        queue: 0
+        forcePlay: 0
+  AmbienceEvents:
+  - eventID: 3
+    ambienceFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      ambienceFiles:
+      - clip: {fileID: 8300000, guid: 33d3a81053d95fc469ba31270a08adb6, type: 3}
+        edit: 1
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 1
+        queue: 0
+        forcePlay: 0
+  - eventID: 2
+    ambienceFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 10
+      playOneShot: 0
+      loop: 1
+      queue: 0
+      forcePlay: 0
+      ambienceFiles:
+      - clip: {fileID: 8300000, guid: 4671d2fcc488877408eb71902171ed75, type: 3}
+        edit: 1
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 1
+        queue: 0
+        forcePlay: 0
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      ambienceFiles:
+      - clip: {fileID: 8300000, guid: 206b8d4943a92b9438fddda2f0039ac2, type: 3}
+        edit: 1
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 1
+        queue: 0
+        forcePlay: 0
+  - eventID: 1
+    ambienceFiles:
+    - randomization: 0
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 1
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      ambienceFiles:
+      - clip: {fileID: 8300000, guid: 206b8d4943a92b9438fddda2f0039ac2, type: 3}
+        edit: 1
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 1
+        queue: 0
+        forcePlay: 0
+  MusicEvents:
+  - eventID: 1
+    musicFiles:
+      randomization: 1
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 0
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      musicFiles:
+      - clip: {fileID: 8300000, guid: 770972c74cdac994ea93f649a505f579, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: cd63453d8d28a604fb56cf7de2f0df4b, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 090059e1c60c9f04fb634f42a73f0cbd, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: ed9cfec585ac9424fbbfba4d764fde1d, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 9473164ec241c2447a828a3979225470, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    transition: 1
+    fadeIn: 1
+    fadeInDuration: 2.05
+    fadeOut: 1
+    fadeOutDuration: 3.11
+  - eventID: 2
+    musicFiles:
+      randomization: 1
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 0
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      musicFiles:
+      - clip: {fileID: 8300000, guid: 9f4379f78649c93418652768beeaa494, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 00de69a2202f1ce4496b3012a804394f, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 3fc6eef156624354b8e1c32490c90024, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 95a6a8ea249dd504389fc26af5c47fce, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: f792a3652f22b8845be4eb7f6741ad14, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 140420f616bf08c4693e917f374fcb17, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    transition: 1
+    fadeIn: 1
+    fadeInDuration: 0.68
+    fadeOut: 1
+    fadeOutDuration: 0.81
+  - eventID: 3
+    musicFiles:
+      randomization: 1
+      pitch: 1
+      randomizePitch: 0
+      randomizedPitch: {x: 0.5, y: 1.5}
+      volume: 1
+      playOneShot: 0
+      loop: 0
+      queue: 0
+      forcePlay: 0
+      musicFiles:
+      - clip: {fileID: 8300000, guid: 090059e1c60c9f04fb634f42a73f0cbd, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 83115e985e107ce4a9e79b4140ba8552, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: ed9cfec585ac9424fbbfba4d764fde1d, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 066c4b9e7b0df0a42afd4cf4a92ee32f, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+      - clip: {fileID: 8300000, guid: 9473164ec241c2447a828a3979225470, type: 3}
+        edit: 0
+        pitch: 1
+        randomizePitch: 0
+        randomizedPitch: {x: 0.5, y: 1.5}
+        volume: 1
+        playOneShot: 0
+        loop: 0
+        queue: 0
+        forcePlay: 0
+    transition: 1
+    fadeIn: 1
+    fadeInDuration: 0.44
+    fadeOut: 1
+    fadeOutDuration: 0.51

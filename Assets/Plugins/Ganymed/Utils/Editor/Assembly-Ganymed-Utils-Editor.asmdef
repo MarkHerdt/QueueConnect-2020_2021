@@ -1,0 +1,17 @@
+{
+    "name": "Assembly-Ganymed-Utils-Editor",
+    "references": [
+        "GUID:8d1139ba1684d8842aaab7c626d0d2b7"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

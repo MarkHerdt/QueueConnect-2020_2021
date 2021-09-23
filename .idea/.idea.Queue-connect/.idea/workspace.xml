@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="96f949eb-20f1-4e51-ab10-10338df4b93b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Queue-connect/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Queue-connect/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Queue-connect/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Queue-connect/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameAssets/Environment/Menu/Menu_PFB.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameAssets/Environment/Menu/Menu_PFB.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameAssets/Environment/Menu/PopUpMenu_PFB.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameAssets/Environment/Menu/PopUpMenu_PFB.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameAssets/Environment/Menu/SliderMenu_PFB.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameAssets/Environment/Menu/SliderMenu_PFB.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Config/GameConfig_SOB.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Config/GameConfig_SOB.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Config/RobotPartConfig_SOB.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Config/RobotPartConfig_SOB.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game_SCN.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game_SCN.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameSystem/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameSystem/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuContent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MenuContent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/QuickSearch.settings" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/QuickSearch.settings" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Environment/ConveyorLiftElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127F223B-9002-46F4-B718-4C873DDA6BB6/1a/7a893aac/IPointerDownHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameSystem/PoolController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameSystem/CheckScreenSize.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@7.3.1/Editor/Data/Nodes/Utility/Logic/IsFrontFaceNode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Slider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Development/BuildSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E5B75411-C8CD-4BFA-A9E7-60BE20206F29/94/82881c9e/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MenuContent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Environment/ConveyorLift.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Robot/RepairParticleBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Development/Test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameSystem/MethodCallbacks.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Environment/ScannerWall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Environment/RayGun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Environment/RepairArm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E5B75411-C8CD-4BFA-A9E7-60BE20206F29/f6/4f8ed9d9/HideFlags.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127F223B-9002-46F4-B718-4C873DDA6BB6/f2/c4b8d908/IEventSystemHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E5B75411-C8CD-4BFA-A9E7-60BE20206F29/76/942316a4/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0C9D4FCF-D613-4956-86FC-3555A6D54354/49/1c225adb/InlineEditorAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E5B75411-C8CD-4BFA-A9E7-60BE20206F29/16/b6289026/Bounds.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/ScrollRect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/d8/f4d3cd4b/FlagsAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameSystem/InputController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/CustomScrollRect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/ConveyorLiftElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Config/PoolPrefabs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Robot/RepairParticleMoveDirection.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameSystem/PoolController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/ConveyorBelt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/ConveyorLift.cs" />
+        <option value="$PROJECT_DIR$/Assets/TODO.txt" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ExtensionMethods/ListExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/SoundSystem/Core/AudioPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Development/TaskExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/RemoveEmptyFolders.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/SoundSystem/QueueConnectSound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/RepairArm.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/MainDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/ScannerWall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/SoundSystem/Core/AudioSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/RayGun.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Development/DebugLog.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Development/BuildSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/LightFlicker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/RobotScanner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Ganymed/Utils/Scripts/ExtensionMethods/TaskHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Config/RobotPartConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/ShuffleCountdown.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Config/GameConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Test/DevelopmentTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameSystem/EventController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Bugs.txt" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/RobotSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Robot/RobotBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Development/Test.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/HealthDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CollectableSystem/CollectableHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/RobotPartButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/MenuContent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameSystem/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Menu.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1k0EMr4TNNar9V1TimPPYljeNlV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30008045" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96f949eb-20f1-4e51-ab10-10338df4b93b" name="Default Changelist" comment="" />
+      <created>1604829068169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604829068169</updated>
+      <workItem from="1604829084106" duration="30857000" />
+      <workItem from="1604860816918" duration="16590000" />
+      <workItem from="1604914078450" duration="117000" />
+      <workItem from="1604914271386" duration="25675000" />
+      <workItem from="1605005115110" duration="6452000" />
+      <workItem from="1605011594249" duration="718000" />
+      <workItem from="1605012413295" duration="627000" />
+      <workItem from="1605013102167" duration="662000" />
+      <workItem from="1605024691087" duration="19923000" />
+      <workItem from="1605090567548" duration="35598000" />
+      <workItem from="1605186365280" duration="15316000" />
+      <workItem from="1605361143455" duration="4811000" />
+      <workItem from="1605525666382" duration="16675000" />
+      <workItem from="1605772475541" duration="6542000" />
+      <workItem from="1606138361635" duration="8510000" />
+      <workItem from="1606306314952" duration="14270000" />
+      <workItem from="1606478430902" duration="21602000" />
+      <workItem from="1606564339997" duration="21292000" />
+      <workItem from="1606649003089" duration="18016000" />
+      <workItem from="1606737087172" duration="15167000" />
+      <workItem from="1606838896008" duration="709000" />
+      <workItem from="1606918496279" duration="11727000" />
+      <workItem from="1606997097824" duration="25614000" />
+      <workItem from="1607085732597" duration="19724000" />
+      <workItem from="1607180732647" duration="15010000" />
+      <workItem from="1607222474239" duration="3392000" />
+      <workItem from="1607262320466" duration="36111000" />
+      <workItem from="1607344847505" duration="10260000" />
+      <workItem from="1607440706913" duration="1286000" />
+      <workItem from="1607516108962" duration="39934000" />
+      <workItem from="1607588775124" duration="712000" />
+      <workItem from="1607609662165" duration="23987000" />
+      <workItem from="1607662196348" duration="4463000" />
+      <workItem from="1607690728749" duration="7092000" />
+      <workItem from="1607729553511" duration="25972000" />
+      <workItem from="1607797440469" duration="6599000" />
+      <workItem from="1607867316885" duration="37158000" />
+      <workItem from="1607943925450" duration="15213000" />
+      <workItem from="1607964368453" duration="22000" />
+      <workItem from="1607965982932" duration="2000" />
+      <workItem from="1607966107847" duration="2988000" />
+      <workItem from="1608035341309" duration="3928000" />
+      <workItem from="1608039347505" duration="15617000" />
+      <workItem from="1612965398630" duration="25000" />
+      <workItem from="1612965446788" duration="4461000" />
+      <workItem from="1613060480050" duration="2456000" />
+      <workItem from="1613744673286" duration="1932000" />
+      <workItem from="1613746636529" duration="5713000" />
+      <workItem from="1613820246931" duration="13181000" />
+      <workItem from="1613900221863" duration="22940000" />
+      <workItem from="1613936942991" duration="551000" />
+      <workItem from="1614104228411" duration="524000" />
+      <workItem from="1614114257877" duration="1123000" />
+      <workItem from="1614169673115" duration="784000" />
+      <workItem from="1614338490479" duration="21114000" />
+      <workItem from="1614418853375" duration="20368000" />
+      <workItem from="1614759582429" duration="21674000" />
+      <workItem from="1615203322934" duration="6429000" />
+      <workItem from="1615284464243" duration="2333000" />
+      <workItem from="1615638216518" duration="1565000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1082" y="401" key="RiderGenerateDialog" timestamp="1613748924778">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1082" y="401" key="RiderGenerateDialog/0.0.2560.1400/-1920.117.1920.1040@0.0.2560.1400" timestamp="1613748924778" />
+    <state x="-1459" y="281" key="SettingsEditor" timestamp="1614104689181">
+      <screen x="-1920" y="117" width="1920" height="1040" />
+    </state>
+    <state x="-1459" y="281" key="SettingsEditor/0.0.2560.1400/-1920.117.1920.1040@-1920.117.1920.1040" timestamp="1614104689181" />
+    <state x="92" y="92" width="2376" height="1216" key="VCS.FileHistoryDialog" timestamp="1615040097474">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="VCS.FileHistoryDialog/0.0.2560.1400/-1920.117.1920.1040@0.0.2560.1400" timestamp="1615040097474" />
+    <state x="1097" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615123279048">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1097" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-1920.117.1920.1040@0.0.2560.1400" timestamp="1615123279048" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1615288431378">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-1213" y="351" width="672" height="504" key="search.everywhere.popup/0.0.2560.1400/-1920.117.1920.1040@-1920.117.1920.1040" timestamp="1615203360333" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.117.1920.1040@0.0.2560.1400" timestamp="1615288431378" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

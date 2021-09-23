@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 482a06459d0e499ba40319b2b7b74b07, type: 3}
+  m_Name: CollectableSettings
+  m_EditorClassIdentifier: 
+  initialCooldown: {x: 3, y: 10}
+  timeBetweenSpawns: {x: 10, y: 22}
+  collectableItems:
+  - {fileID: 2366071083019692963, guid: 9136b59709c56794b82a10c1a1ccdeb0, type: 3}
+  - {fileID: 5278794686922041985, guid: 02b0c0019688f5946ad49481790eb7b8, type: 3}
+  - {fileID: 8293442872975322957, guid: 49d9695ae164dbc438bc698af70b15a1, type: 3}
+  - {fileID: -5983660076228774365, guid: 37ae9bf926661594d8897f1769010f69, type: 3}
+  - {fileID: 135396952550695142, guid: ab36d4349cfef3f478646376158d9310, type: 3}
+  - {fileID: 9207933559141852498, guid: 4a93a17f162abbc439e1fdc6d95dabeb, type: 3}
+  - {fileID: 3085922628312240774, guid: a9ab5a9a8fdb4c448b034df97e27a0ec, type: 3}
+  - {fileID: 2759865762988036385, guid: 92608bad5198ae843abcf238f9933616, type: 3}
+  - {fileID: 2330303931415361567, guid: b2b7f3ca0e37c8f4299b5e7f3643e0a3, type: 3}

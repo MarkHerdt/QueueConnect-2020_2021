@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ade0ae6fda67d814ba16ce4f6f15e72c, type: 3}
+  m_Name: 1_Faun_Default_SOB
+  m_EditorClassIdentifier: 
+  type: 2
+  skinID: 1
+  skinName: Default
+  unlocked: 1
+  robotStand: {fileID: 21300000, guid: 69d65782d64ed664bb60f6d87799b242, type: 3}
+  robotHead: {fileID: 21300000, guid: c0922e284558d8141a93667a64866393, type: 3}
+  robotTorso: {fileID: 21300000, guid: 07b5b9e68670a5545ab7fc98cb14aaad, type: 3}
+  robotArmLeft: {fileID: 21300000, guid: ba8327d0d504f3540a9aecec7affd5c6, type: 3}
+  robotArmRight: {fileID: 21300000, guid: 279dba69de266874488febff2dd56921, type: 3}
+  robotLegLeft: {fileID: 21300000, guid: 8aee0e88272654540a38d8baf077f0ad, type: 3}
+  robotLegRight: {fileID: 21300000, guid: 8a1d5938f442207419f914d1ca3c9a98, type: 3}
+  displayHead: {fileID: 21300000, guid: ad13989389536a245b5b9f229731307f, type: 3}
+  displayTorso: {fileID: 21300000, guid: ef4d3447ef5f06c4594db29ee8eaec26, type: 3}
+  displayArmLeft: {fileID: 21300000, guid: 24ffb6bf611f30642ae7641f4ad591ed, type: 3}
+  displayArmRight: {fileID: 21300000, guid: 9045f7b9e0f6c5b43a24222b0ee805d9, type: 3}
+  displayLegLeft: {fileID: 21300000, guid: c7bf0b5ef906b1c46b2175971c56cccf, type: 3}
+  displayLegRight: {fileID: 21300000, guid: 0367409a5797b4d4998ebff6e1c2de28, type: 3}

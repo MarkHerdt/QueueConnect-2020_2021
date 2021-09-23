@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e701dc5141a07b24c95874fb515d8170, type: 3}
+  m_Name: 0 Test_SOB
+  m_EditorClassIdentifier: 
+  type: 0
+  id: 0
+  skinName: Test
+  unlocked: 1
+  robotStand: {fileID: 21300000, guid: 69d65782d64ed664bb60f6d87799b242, type: 3}
+  robotHead: {fileID: 21300000, guid: 18db12b9229827c47855faf14971e858, type: 3}
+  robotTorso: {fileID: 21300000, guid: 53448032733937b409d6d04582009dfa, type: 3}
+  robotArmLeft: {fileID: 21300000, guid: e47e829b9cd8bcd4aa618f072ecc10d5, type: 3}
+  robotArmRight: {fileID: 21300000, guid: 5973b6588f583ce458d193ba775a53a2, type: 3}
+  robotLegLeft: {fileID: 21300000, guid: a138a48fc1c490d44afc141fb4151313, type: 3}
+  robotLegRight: {fileID: 21300000, guid: 5ce56d4541d19524bb37c2a3b738d035, type: 3}
+  displayHead: {fileID: 21300000, guid: d2642e08658a3844fba4af446149102b, type: 3}
+  displayTorso: {fileID: 21300000, guid: 61717998a47d16f44bb1cf5c85912491, type: 3}
+  displayArmLeft: {fileID: 21300000, guid: fca886a875ab26048b975e4d93815075, type: 3}
+  displayArmRight: {fileID: 21300000, guid: 217c05412c7e55d438f7d05d1e2f1c22, type: 3}
+  displayLegLeft: {fileID: 21300000, guid: fa3a671c2e132ed4b8e955f248fecfb1, type: 3}
+  displayLegRight: {fileID: 21300000, guid: f476ab8114ebad745a26527718a65225, type: 3}

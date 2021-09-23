@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a37b94966e86bd49a51decd80a7dcc2, type: 3}
+  m_Name: GameConfig_SOB
+  m_EditorClassIdentifier: 
+  spawnRobots: 1
+  baseSpawnDelay: 5
+  robotPoolStartCount: 5
+  defaultAmountToDisable: {x: 2, y: 2}
+  minAmountToDisable: 2
+  maxAmountToDisable: 2
+  baseRobotSpeed: 2000
+  baseSpeedIncrement: 400
+  maxRobotSpeed: 10000
+  robotDrag: 100
+  accelerationStep: 10
+  robotGravity: 2000
+  shakeDuration: 0.25
+  shakeAmount: {x: -1.25, y: 1.25}
+  partMass: 1
+  partGravity: 125
+  explosionForce: 450
+  rotationSpeed: {x: -0.025, y: 0.025}
+  forceMode: 1
+  defaultShuffleCountdownDuration: 10
+  resetCountdownDuration: 0.28125
+  addToCountdown: 0.5
+  scannerSpeed: 10
+  randomMovementDelay: {x: 1.25, y: 2.5}
+  fadeToError: 0.2
+  fadeToNormal: 0.1
+  repairArmSpeed: 400
+  invincible: 1
+  allowMistakes: 0
+  flickerSteps: {x: -100, y: 100}
+  flickerDuration: 25

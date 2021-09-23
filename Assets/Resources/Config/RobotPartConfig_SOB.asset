@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83aaccee7e90a604c8ac66e353cb4344, type: 3}
+  m_Name: RobotPartConfig_SOB
+  m_EditorClassIdentifier: 
+  robotSpawn:
+    reorderableList:
+      canAdd: 0
+      canRemove: 0
+      draggable: 0
+      expandable: 0
+      multipleSelection: 0
+      isExpanded: 0
+      label:
+        m_Text: 
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 0
+      footerHeight: 0
+      slideEasing: 0
+      verticalSpacing: 0
+      showDefaultBackground: 0
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 0
+    _keyValues: 000000000200000001000000
+    _keys: 000000000200000001000000
+    _values:
+    - allowedOnMap: 1
+      currentlyActive: 1
+      spawnChance: 100
+    - allowedOnMap: 1
+      currentlyActive: 1
+      spawnChance: 100
+    - allowedOnMap: 0
+      currentlyActive: 0
+      spawnChance: 0
+  robotTypePrefabs:
+  - type: 1
+    prefab: {fileID: 7657440207527154443, guid: 31423a302c81ae6498a02ac122d44bd7,
+      type: 3}
+    robotScript: {fileID: 7657440207527154442, guid: 31423a302c81ae6498a02ac122d44bd7,
+      type: 3}
+    spawnChance:
+      allowedOnMap: 0
+      currentlyActive: 1
+      spawnChance: 0
+    skinIndex: 1
+    robotParts:
+    - {fileID: 21300000, guid: 69d65782d64ed664bb60f6d87799b242, type: 3}
+    - {fileID: 21300000, guid: f9a6df74138361e4a9450df1e1cc5647, type: 3}
+    - {fileID: 21300000, guid: 19d59301c80d1d641a0669bb9431697a, type: 3}
+    - {fileID: 21300000, guid: 882ac4869ab1b3847a1d789774b33f76, type: 3}
+    - {fileID: 21300000, guid: 693bd0713ccf9c849bec04bdb84080da, type: 3}
+    - {fileID: 21300000, guid: 5afc92a5814f58547b8ef5673fccf56f, type: 3}
+    - {fileID: 21300000, guid: f61286161dd023945bc3e5233b8b50d1, type: 3}
+    displayParts:
+    - {fileID: 21300000, guid: 48e3adabc1d73e04da1076a52a4f4f68, type: 3}
+    - {fileID: 21300000, guid: 1545bcad766438140a4e79b086f1c37d, type: 3}
+    - {fileID: 21300000, guid: 013cd90c6a606c04dac66539a6fa3d72, type: 3}
+    - {fileID: 21300000, guid: 865fbe4331f7c5b43a1ebf69e99336e1, type: 3}
+    - {fileID: 21300000, guid: c351ec170109e2947b1502acd2800356, type: 3}
+    - {fileID: 21300000, guid: 608e572ed7c5a8c4cbea912468f79178, type: 3}
+  - type: 0
+    prefab: {fileID: 7657440207527154443, guid: 8068e298f0c39aa4cb227947dc929293,
+      type: 3}
+    robotScript: {fileID: 7657440207527154442, guid: 8068e298f0c39aa4cb227947dc929293,
+      type: 3}
+    spawnChance:
+      allowedOnMap: 1
+      currentlyActive: 1
+      spawnChance: 100
+    skinIndex: 1
+    robotParts:
+    - {fileID: 21300000, guid: 69d65782d64ed664bb60f6d87799b242, type: 3}
+    - {fileID: 21300000, guid: 7d7dea40a1ca78e449d626b596cc8476, type: 3}
+    - {fileID: 21300000, guid: d8238bbd3b6349b4ebe42e44042f9934, type: 3}
+    - {fileID: 21300000, guid: a51b24eef79045c4e8cad30efe173e20, type: 3}
+    - {fileID: 21300000, guid: a299b211fa1eab847b2c408c52de0e9c, type: 3}
+    - {fileID: 21300000, guid: dbdb451497732a04fb71429a59c69a47, type: 3}
+    - {fileID: 21300000, guid: a9bd4f8b7932be1459d598674bd65114, type: 3}
+    displayParts:
+    - {fileID: 21300000, guid: 04175eaec3570804782abe770eaaa937, type: 3}
+    - {fileID: 21300000, guid: 9e9e24ef0aece8f4ca2681848d6cd9cf, type: 3}
+    - {fileID: 21300000, guid: 1c4134b21193dea41bc614376f71cb7f, type: 3}
+    - {fileID: 21300000, guid: a88c371b369e64d408f2b586dd1cc99a, type: 3}
+    - {fileID: 21300000, guid: 1463436bc568ee746a44e94f90ded50c, type: 3}
+    - {fileID: 21300000, guid: 1e8965771984d5442a26ce61eb36c3e2, type: 3}
+  - type: 2
+    prefab: {fileID: 7657440207527154443, guid: f2a19941d6687db4f899f6e76eaf9da3,
+      type: 3}
+    robotScript: {fileID: 7657440207527154442, guid: f2a19941d6687db4f899f6e76eaf9da3,
+      type: 3}
+    spawnChance:
+      allowedOnMap: 1
+      currentlyActive: 1
+      spawnChance: 100
+    skinIndex: 0
+    robotParts:
+    - {fileID: 21300000, guid: 69d65782d64ed664bb60f6d87799b242, type: 3}
+    - {fileID: 21300000, guid: c0922e284558d8141a93667a64866393, type: 3}
+    - {fileID: 21300000, guid: 07b5b9e68670a5545ab7fc98cb14aaad, type: 3}
+    - {fileID: 21300000, guid: ba8327d0d504f3540a9aecec7affd5c6, type: 3}
+    - {fileID: 21300000, guid: 279dba69de266874488febff2dd56921, type: 3}
+    - {fileID: 21300000, guid: 8aee0e88272654540a38d8baf077f0ad, type: 3}
+    - {fileID: 21300000, guid: 8a1d5938f442207419f914d1ca3c9a98, type: 3}
+    displayParts:
+    - {fileID: 21300000, guid: ad13989389536a245b5b9f229731307f, type: 3}
+    - {fileID: 21300000, guid: ef4d3447ef5f06c4594db29ee8eaec26, type: 3}
+    - {fileID: 21300000, guid: 24ffb6bf611f30642ae7641f4ad591ed, type: 3}
+    - {fileID: 21300000, guid: 9045f7b9e0f6c5b43a24222b0ee805d9, type: 3}
+    - {fileID: 21300000, guid: c7bf0b5ef906b1c46b2175971c56cccf, type: 3}
+    - {fileID: 21300000, guid: 0367409a5797b4d4998ebff6e1c2de28, type: 3}
+  skinTypeToChange: 0
+  activeSkins:
+    reorderableList:
+      canAdd: 0
+      canRemove: 0
+      draggable: 0
+      expandable: 0
+      multipleSelection: 0
+      isExpanded: 0
+      label:
+        m_Text: 
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 0
+      footerHeight: 0
+      slideEasing: 0
+      verticalSpacing: 0
+      showDefaultBackground: 0
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 0
+    _keyValues: 000000000100000002000000
+    _keys: 000000000100000002000000
+    _values: 010001000100
+  skins:
+    reorderableList:
+      canAdd: 0
+      canRemove: 0
+      draggable: 0
+      expandable: 0
+      multipleSelection: 0
+      isExpanded: 0
+      label:
+        m_Text: 
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 0
+      footerHeight: 0
+      slideEasing: 0
+      verticalSpacing: 0
+      showDefaultBackground: 0
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 0
+    _keyValues: 000000000100000002000000
+    _keys: 000000000100000002000000
+    _values:
+    - skinList:
+      - {fileID: 11400000, guid: 34b00ac0f834c724b890f9a129b6b973, type: 2}
+      - {fileID: 11400000, guid: f790845c1f503b042aa78d44c9827941, type: 2}
+    - skinList:
+      - {fileID: 11400000, guid: ba9980dda5df989479caff0b1e198616, type: 2}
+      - {fileID: 11400000, guid: bcdc9835c1e774042835628330a8adff, type: 2}
+    - skinList:
+      - {fileID: 11400000, guid: fe23cf20861cd5643bf6efe26555411b, type: 2}
+  unlockedSkins:
+    reorderableList:
+      canAdd: 0
+      canRemove: 0
+      draggable: 0
+      expandable: 0
+      multipleSelection: 0
+      isExpanded: 0
+      label:
+        m_Text: 
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 0
+      footerHeight: 0
+      slideEasing: 0
+      verticalSpacing: 0
+      showDefaultBackground: 0
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 0
+    _keyValues: 000000000100000002000000
+    _keys: 000000000100000002000000
+    _values:
+    - skinList:
+      - {fileID: 11400000, guid: 34b00ac0f834c724b890f9a129b6b973, type: 2}
+      - {fileID: 11400000, guid: f790845c1f503b042aa78d44c9827941, type: 2}
+    - skinList:
+      - {fileID: 11400000, guid: ba9980dda5df989479caff0b1e198616, type: 2}
+      - {fileID: 11400000, guid: bcdc9835c1e774042835628330a8adff, type: 2}
+    - skinList:
+      - {fileID: 11400000, guid: fe23cf20861cd5643bf6efe26555411b, type: 2}
+  robotTypePrefabsFolderPath: Prefabs/Robots
+  cyclopsSkinFolderPath: Skins/Cyclops
+  aquaSkinFolderPath: Skins/Aqua
+  faunSkinFolderPath: Skins/Faun
